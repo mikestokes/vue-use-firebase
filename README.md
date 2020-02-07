@@ -69,7 +69,7 @@ TODO: add example
 
 ## Vuex Support
 
-## Inspitation
+## Inspiration
 This library is inspired from the awesome work by ChrisBianca on [react-firebase-hooks](https://github.com/CSFrequency/react-firebase-hooks)
 
 ## License
