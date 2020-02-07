@@ -36,7 +36,7 @@ By default when you call a Composition function, a new instance is created. If y
 TODO: add example
 
 ## Server Side Rendering Support
-You can use these functions with the ``onServerPrefetch`` and ``onMounted`` hooks exposed in the composition API:
+You can use these functions with the ``onServerPrefetch`` and ``onMounted`` hooks exposed in the composition API. Note that ``onServerPrefetch`` is implemented in the Composition API for Vue 2 but the SSR implementation in Vue 3 may look different.
 
 ```typescript
 import { onServerPrefetch, onMounted } from '@vue/composition-api';
