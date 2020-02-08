@@ -1,9 +1,8 @@
 import { reactive, toRefs, onServerPrefetch, onMounted } from '@vue/composition-api'
-import firebase from "firebase";
-import "firebase/firestore";
+import { firestore } from "firebase"
 
 interface UseCollectionState {
-  snapshot?: firebase.firestore.QuerySnapshot,
+  snapshot?: firestore.QuerySnapshot,
   loading: boolean,
   error?: Error
 }
@@ -11,7 +10,7 @@ interface UseCollectionState {
 export interface QueryOptions {
   onServerPrefetch?: boolean,
   onMounted?: boolean,
-  snapshotListenOptions?: firebase.firestore.SnapshotListenOptions
+  snapshotListenOptions?: firestore.SnapshotListenOptions
 }
 
 // TODO: Unsubscribe from ref
@@ -19,7 +18,7 @@ export interface QueryOptions {
 // TODO: loading state reset on re-fresh?
 // TODO: declarative components wrappers
 
-export const useCollection = (query: firebase.firestore.Query, options?: QueryOptions) => {
+export const useCollection = (query: firestore.Query, options?: QueryOptions) => {
   const state = reactive<UseCollectionState>({
     loading: true
   })
