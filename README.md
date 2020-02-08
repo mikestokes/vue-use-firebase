@@ -25,7 +25,7 @@ npm install @vue/composition-api vue-use-firebase
 ```
 
 ## TypeScript
-Please also follow the installation steps for the [Composition API](https://github.com/vuejs/composition-api). This plugin requires TypeScript version >3.5.1. If you are using vetur, make sure to set ``vetur.useWorkspaceDependencies`` to ``true`` (if you are using [Visual Studio Code](https://code.visualstudio.com/), you can do this in the ``Preferences->Settings->User`` window and search for ``vetur`` to display the settings).
+Please also follow the installation steps for the [Composition API](https://github.com/vuejs/composition-api). This plugin requires TypeScript version >3.7.0. If you are using vetur, make sure to set ``vetur.useWorkspaceDependencies`` to ``true`` (if you are using [Visual Studio Code](https://code.visualstudio.com/), you can do this in the ``Preferences->Settings->User`` window and search for ``vetur`` to display the settings).
 
 ## Usage
 
@@ -68,6 +68,10 @@ Nuxt supports the ``onServerPrefetch`` hook so you can replace the use of Nuxt's
 TODO: add example
 
 ## Vuex Support
+
+
+## Testing
+
 
 ## Inspiration
 This library is inspired from the awesome work by ChrisBianca on [react-firebase-hooks](https://github.com/CSFrequency/react-firebase-hooks)

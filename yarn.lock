@@ -4050,6 +4050,11 @@ firebase@^7.0.0:
     "@firebase/storage" "0.3.26"
     "@firebase/util" "0.2.40"
 
+firestore-jest-mock@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/firestore-jest-mock/-/firestore-jest-mock-0.2.1.tgz#27859ee6543afb6c05490f1d2fceae0eab4b98a5"
+  integrity sha512-csc4ZstX0D7va+Asmnx52wSrdrP4fF6lR3F/Bo9tPBqDx3nW32KRHIwJZ4odUQuPhq1tM5Jkzb0jK7+iOjEVgA==
+
 flat-cache@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/flat-cache/-/flat-cache-2.0.1.tgz#5d296d6f04bda44a4630a301413bdbc2ec085ec0"
@@ -8482,7 +8487,7 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@~3.7.5:
+typescript@^3.7.0:
   version "3.7.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.7.5.tgz#0692e21f65fd4108b9330238aac11dd2e177a1ae"
   integrity sha512-/P5lkRXkWHNAbcJIiHPfRoKqyd7bsyCma1hZNUGfn20qm64T6ZBlrzprymeu918H+mB/0rIg2gGK/BXkhhYgBw==
