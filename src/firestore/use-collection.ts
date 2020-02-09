@@ -12,15 +12,13 @@ export interface QueryOptions {
   onMounted?: boolean,
   snapshotListenOptions?: firestore.SnapshotListenOptions
 }
-
 // TODO: Unsubscribe from ref
-// TODO: unit tests
-// TODO: loading state reset on re-fresh?
-// TODO: declarative components wrappers
 
 export const useCollection = (query: firestore.Query, options?: QueryOptions) => {
   const state = reactive<UseCollectionState>({
-    loading: true
+    snapshot: undefined,
+    loading: true,
+    error: undefined
   })
   
   // options?.onServerPrefetch && onServerPrefetch(async () => {
